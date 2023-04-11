@@ -1,0 +1,697 @@
+<?xml-stylesheet href='NBII_classic.xsl' type='text/xsl'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Nowak, David J.</origin>
+        <origin>Greenfield, Eric J.</origin>
+        <origin>Ellis, Alexis</origin>
+        <pubdate>2022</pubdate>
+        <title>Conterminous United States urban forest threats to 2060</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Fort Collins, CO</pubplace>
+          <publish>Forest Service Research Data Archive</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.2737/RDS-2021-0068</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Numerous threats to urban forests are assessed for the conterminous United States, including projected changes in urban tree cover, air temperatures, precipitation, aridity, sea level rise, wildfires, and flooding, as well as threats from hurricanes, tornadoes, ice storms, and insects and diseases. All potential threats were integrated into a cumulative threat index to illustrate which areas of the United States will likely face the greatest overall threat to their urban forests from 2010 through 2060. These data support the 2010 Resource Planning Act (RPA) Assessment cycle.</abstract>
+      <purpose>By understanding local urban forest threats, management plans and policies can be enacted to help mitigate the impacts of and adapt to future threats to sustain healthy urban forests and associated benefits.</purpose>
+      <supplinf>These data were published on 05/19/2022. On 07/21/2022 the metadata was updated to include reference to newly published article.
+	  
+These data were collected and analyzed to provide content for Nowak et al. (2022).</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2010</begdate>
+          <enddate>2060</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <eastbc>-66.95000</eastbc>
+        <westbc>-124.73000</westbc>
+        <northbc>49.38000</northbc>
+        <southbc>25.54000</southbc>
+      </bounding>
+      <descgeog>Conterminous United States (CONUS)</descgeog>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>boundaries</themekey>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
+        <themekey>environment</themekey>
+        <themekey>health</themekey>
+        <themekey>location</themekey>
+        <themekey>society</themekey>
+      </theme>
+      <theme>
+        <themekt>National Research &amp; Development Taxonomy</themekt>
+        <themekey>Climate change</themekey>
+        <themekey>Ecology, Ecosystems, &amp; Environment</themekey>
+        <themekey>Environment and People</themekey>
+        <themekey>Fire</themekey>
+        <themekey>Forest &amp; Plant Health</themekey>
+        <themekey>Natural Resource Management &amp; Use</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>aridity</themekey>
+        <themekey>flooding</themekey>
+        <themekey>hurricanes</themekey>
+        <themekey>ice storms</themekey>
+        <themekey>insects</themekey>
+        <themekey>tornadoes</themekey>
+        <themekey>urban tree cover</themekey>
+        <themekey>wildfire</themekey>
+        <themekey>RPA Assessment</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>conterminous United States</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. If you use these data in a publication, presentation, or other research product please use the following citation: 
+
+Nowak, David J.; Greenfield, Eric J.; Ellis, Alexis. 2022. Conterminous United States urban forest threats to 2060. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2021-0068</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Northern Research Station, FIA</cntorg>
+          <cntper>David J. Nowak</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>5 Moon Library, SUNY-ESF, 1 Forestry Drive</address>
+          <city>Syracuse</city>
+          <state>NY</state>
+          <postal>13201</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>315-448-3212</cntvoice>
+        <cntpos>Senior Scientist, Team Leader</cntpos>
+        <cntemail>david.nowak@usda.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Funding for this project was provided in part by American Forests; the USDA Forest Service’s RPA Assessment Research and Development Program; and State &amp; Private Forestry’s Urban and Community Forestry Program.
+	
+
+Author Information:
+	
+Davod J. Nowak
+USDA Forest Service, Northern Research Station
+https://orcid.org/0000-0002-2043-0062
+
+Eric J. Greenfield
+USDA Forest Service, Northern Research Station
+
+Alexis Ellis
+USDA Forest Service, Northern Research Station		
+	</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Nowak, David J.</origin>
+        <origin>Greenfield, Eric J.</origin>
+        <origin>Ellis, Alexis</origin>
+        <pubdate>2022</pubdate>
+        <title>Assessing urban forest threats across the conterminous United States</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Journal of Forestry</sername>
+          <issue>fvac019</issue>
+        </serinfo>
+        <onlink>https://doi.org/10.1093/jofore/fvac019</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>These data are various measures of several threats to urban forests from 2010 and projected to 2060 that are converted to index values to provide indicators of relative risk.
+	  
+Methods are outlined below (see process steps). All values are assumed accurate and consistent relative to original data sources (see source citations). 
+
+References:
+
+Cole, Jason; Nowak, David J.; Greenfield, Eric J. 2021. Potential hurricane wind risk to US rural and urban forests. Journal of Forestry 119(4): 393-406. https://doi.org/10.1093/jofore/fvab018 
+</attraccr>
+    </attracc>
+    <logic>Quality assurance and quality control checks were made on all data sets to check mathematical operations.</logic>
+    <complete>Complete for conterminous United States</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Census Bureau</origin>
+            <pubdate>2020</pubdate>
+            <title>2010 Census Urban and Rural Classification and Urban Area Criteria</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural/2010-urban-rural.html</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2010</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>U.S. Census Bureau 2020</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>Urban land delineations for each county.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Multi-Resolution Land Characteristics Consortium</origin>
+            <pubdate>2020</pubdate>
+            <title>National Land Cover Database tree cover maps (2011)</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://www.mrlc.gov/data</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2011</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>MRLC 2020</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>The 2010 starting percent urban tree cover was estimated using 2011 National Land Cover Database (NLCD) tree cover maps (MRLC 2020) for: a) urban land (2000) remaining urban land (2010) and b) rural land (2000) converting to urban land (2010).</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Center for Atmospheric Research</origin>
+            <pubdate>2019</pubdate>
+            <title>NCAR Community Climate System Model (CCSM) projections in GIS formats</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://gisclimatechange.ucar.edu/gis-climatedata</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2010</begdate>
+              <enddate>2060</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>NCAR</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>Projected air temperature and precipitation data were obtained from the National Center for Atmospheric Research (NCAR) Community Climate System Model (CCSM) projections (2019).</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection Agency</origin>
+            <pubdate>2019</pubdate>
+            <title>EnviroAtlas</title>
+            <geoform>tabular digital data</geoform>
+            <onlink>https://www.epa.gov/enviroatlas</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2010</begdate>
+              <enddate>2060</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>U.S. EPA 2019</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>Precipitation and potential evapotranspiration data were obtained using RCP 8.5 projections, as well as flood zones based on 100-year floodplains (2016).</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Oceanic and Atmospheric Administration</origin>
+            <pubdate>2017</pubdate>
+            <title>Sea Level Rise data</title>
+            <geoform>tabular digital data</geoform>
+            <pubinfo>
+              <publish>U.S. Department of Commerce</publish>
+            </pubinfo>
+            <onlink>https://coast.noaa.gov/slrdata/</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2017</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>NOAA 2017</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>To estimate how much urban area of each county could be affected by rising sea levels, projections from the National Oceanic and Atmospheric Administration (NOAA 2017) were used.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Oceanic and Atmospheric Administration</origin>
+            <pubdate>2020</pubdate>
+            <title>Storm events database</title>
+            <geoform>tabular digital data</geoform>
+            <pubinfo>
+              <publish>U.S. Department of Commerce</publish>
+            </pubinfo>
+            <onlink>https://www.ncdc.noaa.gov/stormevents/</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1950</begdate>
+              <enddate>2020</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>NOAA 2020</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>nformation on tornadoes (1950-2019) and ice storm events (1996-2020) for each county were derived from NOAA’s storm events database.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USDA Forest Service</origin>
+            <pubdate>2018</pubdate>
+            <title>Wildfire Hazard Potential</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://www.firelab.org/sites/default/files/images/downloads/whp2014_cls_faq_metadata.pdf</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2018</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>USDA Forest Service 2018</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>Wildfire hazard potential (WHP) data were obtained from the USDA Forest Service (2018) Fire Modeling Institute and are designed to depict the relative potential for wildfire that would be difficult for suppression resources to contain.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USDA Forest Service</origin>
+            <pubdate>2017</pubdate>
+            <title>Mapping and reporting</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service, Forest Health Protection</publish>
+            </pubinfo>
+            <onlink>https://www.fs.fed.us/foresthealth/applied-sciences/mapping-reporting/damage-agent-range-maps.shtml</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2017</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>USDA Forest Service 2017</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>Distribution data for 45 insects and diseases (Supp. Table 1) were obtained from the USDA Forest Service Forest Health Technology Enterprise Team and Alien Forest Pest Explorer (USDA Forest Service 2017, 2020).</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USDA Forest Service</origin>
+            <pubdate>2020</pubdate>
+            <title>Alien Forest Pest Explorer</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Madison, WI</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service, Northern Research Station</publish>
+            </pubinfo>
+            <onlink>https://www.nrs.fs.fed.us/tools/afpe/maps/</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2020</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>USDA Forest Service 2020</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>Distribution data for 45 insects and diseases (Supp. Table 1) were obtained from the USDA Forest Service Forest Health Technology Enterprise Team and Alien Forest Pest Explorer (USDA Forest Service 2017, 2020).</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Several potential threats to urban forests were assessed at the county level. Some threats were assessed based on projected changes in these threats between 2010-2060 (e.g., urban tree cover, air temperatures, precipitation, aridity, sea level rise). Other threats that currently exist today (e.g., wildfires, flooding) were assessed by combining the existing threat level with projected changes in these threats between 2010-2060. The future risk from some threats could not be assessed (hurricanes, tornadoes, ice storms, insects and diseases), so current or historical risk patterns were used to illustrate these urban forest threats (\Supplements\Table1_ThreatAssessmentMethods.pdf).
+
+Each urban forest threat was projected or assessed based on data from various sources as detailed below. For each county, a standardized threat index was calculated as:
+
+Threat Index = county value / absolute value of the maximum U.S. county value
+
+This index standardizes all threats on a potential of -1 to +1 value with a +1 value indicating the county with the greatest relative threat, negative values indicating lessening threats, zero indicating no threat or change in threat value, and other values indicating the threat level relative to the maximum threat. Most threat indices were only positive throughout the United States. In these cases, the index will only vary between 0 and +1. A few threats had some negative values due to some areas exhibiting a decrease in threats (i.e., tree cover increases, reduced flood risk). Precipitation change also had some negative values, but as any change in precipitation, either positive or negative, could be a threat to forest health, the precipitation index was based on the absolute value of changes and thus any change was considered positive (higher values indicating a greater change). It should be noted that the change in urban tree cover index is based on the entire county area as it is based on projected urban land expansion in a county. Threats from hurricanes, tornadoes, ice storms and insects and diseases are also based on the entire county as these are county-based datasets. All other indices are based on changes within the urban land that existed in 2010. This limitation to existing urban land is because the projections of urban expansion to 2060 are at the county level with no geographical specificity as to where that expansion will occur within the county.
+
+Urban land is delimited based on U.S. Census Bureau definitions (U.S. Census Bureau 2020). Urban areas represent densely developed territory, and encompass residential, commercial, and other non-residential urban land uses. For the 2010 Census, an urban area will comprise a densely settled core of census tracts and/or census blocks that meet minimum population density requirements, along with adjacent territory containing non-residential urban land uses as well as territory with low population density included to link outlying densely settled territory with the densely settled core.  To qualify as an urban area, the territory identified according to criteria must encompass at least 2,500 people, at least 1,500 of which reside outside institutional group quarters. The Census Bureau identifies two types of urban areas: Urbanized Areas (UAs) of 50,000 or more people and Urban Clusters (UCs) of at least 2,500 and less than 50,000 people. To be classified as an “urban” county in this analysis the county had to have urban land and at least one person residing in urban areas.
+
+
+Projected Changes in Urban Tree Cover:
+
+Urban expansion in the United States was projected for 2010-2060 based on the average growth within county urbanization classes between 1990 and 2010. Methods and results of these methods are given in Nowak and Greenfield (2018b). For each decade, the amount of urban land at the start of the decade and new urban land added during the decade was calculated for each county. The 2010 starting percent urban tree cover was estimated using NLCD tree cover maps (MRLC 2020) for: a) urban land (2000) remaining urban land (2010) and b) rural land (2000) converting to urban land (2010).
+
+As past NLCD tree cover data are known to underestimate actual tree cover (Nowak and Greenfield 2010), photo-interpretation was conducted to help determine actual tree cover values. State urban tree cover values were determined through photo-interpretation of 1000 points per state using c. 2014 aerial photos (Nowak and Greenfield 2018a). Urban tree cover estimates for 2010 were adjusted based on ratio of the state average urban tree cover to the estimated urban tree cover based on photo-interpretation:
+
+County Urban Tree Cover = county urban tree cover (NLCD 2011) x state urban photo-interpreted tree cover c. 2014 (%) / state urban NLCD tree cover (%)
+
+The urban tree cover in 2010 was calculated by weighting the percent tree cover value in urban remaining urban land and rural land converting to urban land by its associated land area. It is important to note that just because rural land converts to urban land, that not all the land cover classes will change (e.g., to developed land cover). Urban conversion indicates an increase in population density and development, but not necessarily complete land cover conversion to developed land. For example, urban growth reduces forest land cover by about 80%, but on average, about 20% of forest land remains as forest when rural land converts to urban land (Nowak and Walton 2005).
+
+To project urban tree cover for each decade (2020-2060), the percent urban tree cover at the start of the decade in each county was adjusted by the projected average annual relative percent change in urban tree cover from the associated state average (c. 2009-2014) (Nowak and Greenfield 2018a). For example, if state urban tree cover changed from 50% to 49% between 2009 and 2014, that would equate to 1% drop over 5 year or -0.2% per year. The -0.2% annual change was converted to a relative change based on the starting tree cover percentage (e.g., -0.2/50 = -0.004% change per relative to existing tree cover). This relative change value was applied to the tree cover from the previous year to project tree cover annually (e.g., tree cover in county in 2010 = 40%; 2011 = (40% x -0.004) + 40% = 39.8%; 2012 = (39.8% x -0.004) + 39.8% = 39.7%, …). The new percent tree cover was applied to urban land remaining urban at the end of the decade to estimate total tree cover in this area. 
+
+Total tree cover within urban expansion areas was based on the county-specific percent tree cover from the rural to urban land conversion (2000-2010) multiplied by the land area of urban expansion. Total decadal urban tree cover (2020-2060) was calculated by adding total tree cover in urban land remaining urban and rural land converting to urban land at the end of each decade. For counties with no urban land in 2010 but urban land in future years, estimates of percent urban tree cover in 2060 were derived from the neighboring county with the closest county geographic center to the center of the county in question. Total change in percent urban tree cover (2010-2060) was used to develop a tree cover change index:
+
+Tree cover change index = -1 x the projected change in percent tree cover in urban areas (2010-2060) / absolute value of maximum change in percent among counties (34.9%)
+
+The sign of this index was changed (multiplied by -1) so that a positive value of this index would indicate a positive threat related to a loss of tree cover.
+
+
+Air Temperature and Precipitation Changes:
+
+Projected air temperature and precipitation data were obtained from the National Center for Atmospheric Research (NCAR) Community Climate System Model (CCSM) projections (2019). These data were obtained at a 4.5 km resolution that covered the conterminous United States but were resampled for display/analysis at 30 m resolution and projected to WGS 1984 Web Mercator Auxiliary Sphere. 
+
+Data represented an “ensemble average” of six model runs for representative concentration pathways (RCP) 8.5 for 2060. The RCP 8.5 scenario is characterized by increasing GHG emissions over time and factors in the highest GHG concentration levels of all the scenarios by 2100. These data include both the projected values and the differences between current (2010) and future (2060) modeled values for annual mean air temperature (°Celsius [°C]) and annual total precipitation (millimeters [mm]) within urban areas of each county. Although high baseline emissions are presented, illustrating a maximum effect, the index of these values among counties will illustrate the areas with the greatest relative change.
+
+Temperature change index = projected temperature change in county (2010-2060) / maximum temperature change among counties (3.5°C)
+
+As precipitation has bidirectional changes among counties, any change can be considered a threat (e.g., both decreases and increases in precipitation can be considered an environmental threat). In these cases, any change from current conditions was indexed as a positive value as: 
+
+Absolute Precipitation Change Index = absolute value of county precipitation change / absolute value of the maximum U.S. county value (335 mm/year)
+
+
+Aridity Changes:
+
+The aridity index used in this analysis utilizes precipitation and potential evapotranspiration data from the U.S. EPA EnviroAtlas (2019) using RCP 8.5 projections. Evapotranspiration is the cumulative amount of water returned to the atmosphere due to evaporation from Earth’s surface and plant transpiration. Potential evapotranspiration (PET) represents the evapotranspiration rate under ideal circumstances (i.e., a vegetated surface shading the ground and unlimited water supply) (U.S. EPA 2016). An aridity ratio was calculated as precipitation (P) divided by PET (Greenfield and Nowak 2013). Precipitation and PET data were resampled to 30 meter (m) resolution from original 800 m resolution.
+
+Aridity types ranges from Hyperarid (P/PET &lt; 0.05) to Humid (P/PET &gt; 0.65) (Middleton and Thomas 1997). A decrease in the aridity ratio means an increase in aridity. As the threat to urban forests increases with increased aridity, changes in aridity from 2010 to 2060 by county were calculated as county aridity index (P/PET) in 2010 minus aridity index in 2060, so that increasing aridity is indicated by positive values. 
+
+Aridity Change Index = change in aridity ratio within a county / maximum change in aridity ratios among all counties (0.405)
+
+
+Flooding: 
+
+Flood zones based on 100-year floodplains (2016) areas were obtained from the U.S. EPA EnviroAtlas (U.S. EPA 2019). As increases in precipitation would likely increase flooding and vice versa, a combined index was created to estimate potential future flood risk. This combined index was calculated as:
+
+Flood risk index = flood area (% of urban area) + flood area (% of urban area) x relative precipitation change in county / absolute value of maximum value in the numerator (108.8), where
+
+Relative precipitation change = change in precipitation 2010-2060 (mm) / precipitation in 2010 (mm).
+
+
+Sea Level Rise: 
+
+To estimate how much urban area of each county could be affected by rising sea levels, projections from the National Oceanic and Atmospheric Administration (NOAA 2017) were used. Based on projections of an “intermediate” future scenario, a conservative projection of a 61-centimeter sea level rise for 2060 was used. The proportion of urban land submerged by rising sea levels was calculated and indexed for each urban county: 
+
+Sea level rise index = Percent of county urban area inundated (2060) / maximum inundation among all counties (48%).
+
+
+Wildfire Threat: 
+
+Wildfire hazard potential (WHP) data were obtained from the USDA Forest Service (2018) Fire Modeling Institute and are designed to depict the relative potential for wildfire that would be difficult for suppression resources to contain. These spatial datasets of wildfire likelihood and intensity were generated for the conterminous U.S. in 2016 with the Large Fire Simulator (FSim), as well as spatial fuels and vegetation data from LANDFIRE 2012 and point locations of past fire occurrence (ca. 1992 - 2013). Areas with higher WHP values represent fuels with a higher probability of experiencing torching, crowning, and other forms of extreme fire behavior under conducive weather conditions, based primarily on landscape conditions at the end of 2012. WHP is not an explicit map of wildfire threat or risk, but when paired with spatial data depicting highly valued resources and assets such as communities, structures, or powerlines, it can approximate relative wildfire risk to those resources and assets. In this report, the WHP is only analyzed within urban areas, which are areas of higher risk to humans and structures. The assessment of WHP is also not a forecast or wildfire outlook for any particular season, as it does not include any information on current or forecasted weather or fuel moisture conditions. It is instead intended for long-term strategic planning and fuels management (USDA Forest Service 2018; Dillon et al. 2015). As increases in aridity would likely increase WHP, a combined index was created to estimate potential future wildfire risk. This combined index was calculated as:
+Wildfire change index = WHP index + WHP index x relative aridity change / absolute value of maximum value in the numerator, where
+
+WHP index = average WHP data within urban areas in county / maximum numerator value among counties (3018)
+
+Relative aridity change = change in aridity 2010-2060 (P/PET) / aridity in 2010 (P/PET)
+
+
+Hurricane Threat: 
+
+To assess hurricane risk, a probabilistic risk map of potential hurricane damage based on the historical patterns of hurricane tracks and wind speeds between 1851 and 2015 was developed (Cole et al. 2021). These data were combined with topographic data to determine potential wind exposures to accumulated cyclone energy. Cumulative urban forest risk was based on mean cumulative accumulated cyclone energy values for the county. As it is difficult to predict where future hurricanes will hit, past patterns of hurricane paths and intensity are used to help assess areas with greatest risk to future hurricane damage. This same historical pattern analysis was used to assess potential threats from tornadoes and ice storms (see below). It is unknown how hurricane intensification may vary in coming years, so current risk is assumed to remain relatively the same, but the intensity of effects is likely to increase in the future. 
+
+Hurricane threat index = mean cumulative accumulated cyclone energy (1851-2015) in county / maximum value in numerator among all counties (83,139). 
+
+
+Tornado and Ice Storm Threats: 
+
+Information on tornadoes (1950-2019) and ice storm events (1996-2020) for each county were derived from NOAA’s storm events database (NOAA 2020). 
+
+Ice storm risk index = number of ice storms in county (1996-2020) / maximum number of storms among all counties (29).
+
+Number of tornadoes times the average tornado F scale of these tornadoes (i.e., tornado strength based on wind speed) by county were used to create the tornado index. The F scale weighting of tornadoes was conducted as the threat from tornadoes increases as wind speed increases.
+
+Tornado risk index = number of tornados x average F scale value for all tornadoes in county (1950-2019) / maximum value in numerator among all counties (168). 
+
+
+Insect and Disease Threat: 
+
+Distribution data for 45 insects and diseases (Supp. Table 1) were obtained from the USDA Forest Service Forest Health Technology Enterprise Team and Alien Forest Pest Explorer (USDA Forest Service 2017, 2020). Counts of total number of insects and diseases in each county were used to develop the index.
+
+Pest index = number of insect or disease species within county / maximum number of insects and diseases among all counties (18).
+
+
+Cumulative Threat Index: 
+
+A cumulative threat index (CTI) was calculated by equally combining all standardized threat indices and re-standardizing the final index value as:
+
+Cumulative threat index (0-1) = (Urban tree cover change index + Air temperature change index + Absolute precipitation change index + Aridity change index + Flood risk change index + Sea level rise index + Wildfire change index + Hurricane index + Tornado index + Ice storm index + Pest index) / maximum value in the numerator (4.994)
+
+In theory, this index could range between -1 and +1 with negative values indicating a reduction in threats. However, all cumulative threat index values were positive in the United States. The impact of each threat is likely not equal, but an equal weighting procedure gives an indication of the counties with greatest overall relative cumulative threat from all threats. The CTI indicates which counties have the greatest overall threat per unit of ground area. Each county should be evaluated as to which threats are greatest in specific counties.
+
+To determine which counties have the greatest overall relative threat to urban forests, the CTI was weighted by percent of county within urban areas. The percent-weighted CTI reveals the counties with the greatest overall threats and the greatest proportion of urban land (i.e., heavily urbanized counties will tend to have greater proportional threats to urban forests).
+
+		
+For complete details see Nowak et al. (2022).
+
+
+Additional References:
+
+Cole, Jason; Nowak, David J.; Greenfield, Eric J. 2021. Potential hurricane wind risk to US rural and urban forests. Journal of Forestry 119(4): 393-406. https://doi.org/10.1093/jofore/fvab018
+
+Nowak, David J.; Greenfield, Eric J. 2010. Evaluating the National Land Cover Database tree canopy and impervious cover estimates across the conterminous United States: A comparison with photo-interpreted estimates. Environmental Management 46(3): 378-390. https://doi.org/10.1007/s00267-010-9536-9 and https://www.fs.usda.gov/treesearch/pubs/36593
+
+Nowak, David J.; Greenfield, Eric J. 2018a. Declining urban and community tree cover in the United States. Urb. For. Urb. Greening 32: 32-55. https://doi.org/10.1016/j.ufug.2018.03.006 and https://www.fs.usda.gov/treesearch/pubs/55941
+
+Nowak, David J.; Greenfield, Eric J. 2018b. U.S. urban forest statistics, values and projections. Journal of Forestry 116(2): 164–177. https://doi.org/10.1093/jofore/fvx004 and https://www.fs.usda.gov/treesearch/pubs/55818
+
+Nowak, David J.; Walton, Jeffrey T. 2005. Projected urban growth (2000 - 2050) and its estimated impact on the US Forest Resource. Journal of Forestry 103(8): 383-389. https://www.fs.usda.gov/treesearch/pubs/22176
+
+U.S. Environmental Protection Agency (U.S. EPA). 2016. Climate Scenarios (1950–2099): Potential Evapotranspiration. EnviroAtlas Fact Sheet. 2 p. https://www.epa.gov/enviroatlas. Last accessed December 2019.
+
+Greenfield, Eric J.; Nowak, David J. 2013. Tree cover and aridity projections to 2060: a technical document supporting the Forest Service 2010 RPA assessment. Gen. Tech. Rep. NRS-125. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northern Research Station. 35 p. https://doi.org/10.2737/NRS-GTR-125
+
+Middleton, Nick; Thomas, David. (eds.) 1997. World atlas of desertification. 2nd ed., London, UK: Routledge. 192 p. ISBN 0340691662.
+
+Dillon, Gregory K.; Menakis, James; Fay, Frank. 2015. Wildland fire potential: A tool for assessing wildfire risk and fuels management needs. In: Keane, Robert E.; Jolly, Matt; Parsons, Russell; Riley, Karin. Proceedings of the large wildland fires conference; May 19-23, 2014; Missoula, MT. Proc. RMRS-P-73. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. p. 60-76. https://www.fs.usda.gov/treesearch/pubs/49429</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <overview>
+      <eaover>DATA FILES (1)
+	  
+Below you will find a list and description of the data file included in this data publication.
+
+\Data\CONUSUrbanForestThreatsto2060.csv: Comma-delimited ASCII text file containing numerous threats to urban forests assessed for the conterminous United States. Values of -999 and blanks in table are considered "no data".
+
+Acronyms used:
+C = Celsius
+cm = centimeters
+mm = millimeters
+PET = potential evapotranspiration
+WHP = wildfire hazard potential
+
+
+Variables include (listed in order in data file and by category):
+
+urb/no urb = urban or non urban designation (0 = urban as designated by 2010 U.S. Census urban land with at least one person designated as urban population, 1= not urban)
+
+State = name of U.S. State associated with county
+
+County = name of county
+
+Fips = Federal Information Processing Standard unique id of each county
+
+
+PROJECTED CHANGES IN URBAN TREE COVER
+
+Difference in Urban Land 2010-2060 = percent urban land 2060 minus percent urban land 2010
+
+Difference in Urban Tree Cover 2010-2060 = percent urban tree cover 2060 minus percent urban tree cover 2010
+
+Urban Tree Cover Change Index = -1 times the projected change in percent tree cover in urban areas (2010-2060) divided by absolute value of maximum change in percent among counties (34.9%)
+
+
+AIR TEMPERATURE AND PRECIPITATION CHANGES
+
+Difference in Temperature Celsius 2010-2060 = temperature in 2060 minus temperature in 2010
+
+Temperature Change Index = projected temperature change in county (2010-2060) divided by maximum temperature change among counties (3.5 degrees C)
+
+Difference in Precipitation mm/year 2010-2060 = precipitation in 2060 minus precipitation in 2010
+
+Absolute Precipitation Change Index = absolute value of county precipitation change / absolute value of the maximum U.S. county value (335 mm/year)
+
+
+ARIDITY CHANGES
+
+Difference in Aridity 2010-2060 = aridity in 2060 minus aridity in 2010
+
+Aridity Change Index = change in aridity ratio within a county divided by maximum change in aridity ratios among all counties (0.405)
+
+
+FLOODING
+
+Flood risk index = flood area (% of urban area) plus flood area (% of urban area) times relative precipitation change in county divided by absolute value of maximum value in the numerator (108.8), where relative precipitation change = change in precipitation 2010-2060 (mm) divided by precipitation in 2010 (mm)
+
+
+SEA LEVEL RISE
+ 
+Difference in Sea Level Rise % inundation = sea level rise % inundation 2060 as fraction minus sea level rise % inundation 2010 as fraction
+
+Sea level rise index = percent of county urban area inundated (2060) divided by maximum inundation among all counties (48%)
+Under the heading Wildfire Threat
+
+Wildfire change index = WHP index plus WHP index times relative aridity change divided by absolute value of maximum value in the numerator, where WHP index = average WHP data within urban areas in county divided by maximum numerator value among counties (3018), and where relative aridity change = change in aridity 2010-2060 (P/PET) divided by aridity in 2010 (P/PET)
+
+
+HURRICANE THREAT
+
+Hurricane threat index = mean cumulative accumulated cyclone energy (1851-2015) in county divided by maximum value in numerator among all counties (83,139)
+
+
+TORNADO AND ICE STORM THREATS
+
+Tornado risk index = number of tornados times average F scale value for all tornadoes in county (1950-2019) divided by maximum value in numerator among all counties (168)
+
+Ice storm risk index = number of ice storms in county (1996-2020) divided by maximum number of storms among all counties (29)
+
+
+INSECT AND DISEASE THREAT
+
+Pest index = number of insect or disease species within county divided by maximum number of insects and diseases among all counties (18)
+
+
+CUMULATIVE THREAT INDEX
+
+CTI = Cumulative threat index 0-1: (Urban tree cover change index + Air temperature change index + Absolute precipitation change index + Aridity change index + Flood risk change index + Sea level rise index + Wildfire change index + Hurricane index + Tornado index + Ice storm index + Pest index) divided by maximum value in the numerator (4.994)
+</eaover>
+      <eadetcit>Nowak, David J.; Greenfield, Eric J.; Ellis, Alexis. 2022. Assessing urban forest threats across the conterminous United States. Journal of Forestry fvac019. https://doi.org/10.1093/jofore/fvac019</eadetcit>
+    </overview>
+  </eainfo>
+  <eainfo>
+    <overview>
+      <eaover>SUPPLEMENTAL FILES (1)
+	  
+Below you will find a list and description of the supplemental files included in this data publication.
+
+\Supplements\Table1_ThreatAssessmentMethods.pdf: Portable Document Format (PDF) file containing a table summarizing the urban forest threats and method used to develop threat assessment.
+</eaover>
+      <eadetcit>Nowak, David J.; Greenfield, Eric J.; Ellis, Alexis. 2022. Assessing urban forest threats across the conterminous United States. Journal of Forestry fvac019. https://doi.org/10.1093/jofore/fvac019</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Research and Development</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>240 West Prospect Road</address>
+          <city>Fort Collins</city>
+          <state>CO</state>
+          <postal>80526</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>see Contact Instructions</cntvoice>
+        <cntpos>Research Data Archivist</cntpos>
+        <cntinst>This contact information was current as of July 2022. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>RDS-2021-0068</resdesc>
+    <distliab>Metadata documents have been reviewed for accuracy and completeness. Unless otherwise stated, all data and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. However, neither the author, the Archive, nor any part of the federal government can assure the reliability or suitability of these data for a particular purpose. The act of distribution shall not constitute any such warranty, and no responsibility is assumed for a user's application of these data or related materials.
+
+The metadata, data, or related materials may be updated without notification. If a user believes errors are present in the metadata, data or related materials, please use the information in (1) Identification Information: Point of Contact, (2) Metadata Reference: Metadata Contact, or (3) Distribution Information: Distributor to notify the author or the Archive of the issues.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>CSV</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Comma-separated values (CSV) file</formspec>
+          <filedec>Files zipped with 7-Zip 19.0</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2021-0068</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>PDF</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Portable Document Format (PDF file)</formspec>
+          <filedec>Files zipped with 7-Zip 19.0</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2021-0068</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20220721</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Northern Research Station, FIA</cntorg>
+          <cntper>David J. Nowak</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>5 Moon Library, SUNY-ESF, 1 Forestry Drive</address>
+          <city>Syracuse</city>
+          <state>NY</state>
+          <postal>13201</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>315-448-3212</cntvoice>
+        <cntpos>Senior Scientist, Team Leader</cntpos>
+        <cntemail>david.nowak@usda.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>
