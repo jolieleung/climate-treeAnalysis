@@ -36,16 +36,17 @@ var config = {
                      layer: 'state-boundary',
                      opacity: 1,
                      duration: 5000
-                 },
+                 }
+                 ,
                  {
-                    layer: 'utcci',
+                    layer: 'utcci_3d',
                     opacity: 1,
                     duration: 5000
                 }
             ],
             onChapterExit: [
                  {
-                     layer: 'utcci',
+                     layer: 'utcci_3d',
                      opacity: 0
                  }
             ]
