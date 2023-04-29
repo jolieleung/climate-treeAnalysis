@@ -39,7 +39,7 @@ var config = {
                  },
                  {
                     layer: 'utcci',
-                    opacity: 1,
+                    opacity: .5,
                     duration: 5000
                 }
             ],
@@ -73,14 +73,14 @@ var config = {
                      duration: 5000
                  },
                  {
-                    layer: 'utcci_3d',
+                    layer: 'utcci',
                     opacity: 1,
                     duration: 5000
                 }
             ],
             onChapterExit: [
                  {
-                     layer: 'utcci_3d',
+                     layer: 'utcci',
                      opacity: 0
                  }
             ]
@@ -114,7 +114,7 @@ var config = {
                 //     duration: 5000
                 // },
                 {
-                    layer: 'tci_3d',
+                    layer: 'tci',
                     opacity: 1,
                     duration: 5000
                 }
@@ -126,7 +126,7 @@ var config = {
                 //     duration: 5000
                 // },
                 {
-                    layer: 'tci_3d',
+                    layer: 'tci',
                     opacity: 0,
                     duration: 5000
                 }
@@ -150,14 +150,14 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'apci_3d',
+                    layer: 'apci',
                     opacity: 1,
                     duration: 5000
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'apci_3d',
+                    layer: 'apci',
                     opacity: 0,
                     duration: 5000
                 }
@@ -181,14 +181,14 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'aci_3d',
+                    layer: 'aci',
                     opacity: 1,
                     duration: 5000
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'aci_3d',
+                    layer: 'aci',
                     opacity: 0,
                     duration: 5000
                 }
@@ -212,14 +212,14 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'utcci_3d',
+                    layer: 'utcci',
                     opacity: 1,
                     duration: 5000
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'utcci_3d',
+                    layer: 'utcci',
                     opacity: 0,
                     duration: 5000
                 }
