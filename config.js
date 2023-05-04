@@ -267,14 +267,14 @@ var config = {
             id: 'nys_treecover',
             alignment: 'right',
             hidden: false,
-            title: 'Temperature Change Index',
+            title: 'Tree Cover in New York State',
             image: '',
-            description: '',
+            description: "Let's look at the tree cover in New York state. The lime green represents the most prevalent forest type in New York state, a sugar maple, beech, and yellow birch mix. Note that the riskiest zone for tree cover change, located to the southeast of the state, dispears as you scroll to the next section.",
             location: {
-                center: [-75.45871, 42.87633],
+                center: [-75.10197, 42.73273],
                 zoom: 6.98,
                 pitch: 45.00,
-                bearing: 0.00,
+                bearing: 0.00
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
@@ -324,14 +324,14 @@ var config = {
             id: 'nys_tci',
             alignment: 'right',
             hidden: false,
-            title: 'Temperature Change Index',
+            title: 'Temperature Change Index in New York State',
             image: './images/phz_90-99.gif',
-            description: '',
+            description: 'Now looking at the temperature change index, we can see that overall New York state is at high risk for a change in temperature through 2060. Given global trends and the plant hardiness zone analysis, we can assume that means the temperature is increasing. Note that the next riskiest zone for tree cover change dispears as you scroll to the next section.',
             location: {
-                center: [-75.45871, 42.87633],
+                center: [-75.10197, 42.73273],
                 zoom: 6.98,
                 pitch: 45.00,
-                bearing: 0.00,
+                bearing: 0.00
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
@@ -355,11 +355,11 @@ var config = {
                 }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'tci',
-                //     opacity: 0,
-                //     duration: 5000
-                // },
+                {
+                    layer: 'TCC_Risk4',
+                    opacity: 0,
+                    duration: 5000
+                },
                 {
                     layer: 'tci',
                     opacity: 0,
@@ -368,17 +368,17 @@ var config = {
             ]
         },
         {
-            id: 'nys-2',
-            alignment: 'left',
+            id: 'nys_apci',
+            alignment: 'right',
             hidden: false,
-            title: 'Absolute Preciptation Change Index',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            title: 'Absolute Preciptation Change Index in New York State',
+            image: '',
+            description: 'Now looking at the absolute preciptation change index, we can see that the lower part of the state is at high risk for absolute preciptation change through 2060. Note that the next riskiest zone for tree cover change dispears as you scroll to the next section.',
             location: {
-                center: [-75.45871, 42.87633],
+                center: [-75.10197, 42.73273],
                 zoom: 6.98,
                 pitch: 45.00,
-                bearing: 0.00,
+                bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -392,6 +392,11 @@ var config = {
             ],
             onChapterExit: [
                 {
+                    layer: 'TCC_Risk3',
+                    opacity: 0,
+                    duration: 5000
+                },
+                {
                     layer: 'apci',
                     opacity: 0,
                     duration: 5000
@@ -399,17 +404,17 @@ var config = {
             ]
         },
         {
-            id: 'nys-3',
-            alignment: 'fully',
+            id: 'nys_aci',
+            alignment: 'right',
             hidden: false,
-            title: 'Aridity Change Index',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            title: 'Aridity Change Index in New York State',
+            image: '',
+            description: 'Now looking at the aridity change index, we can see that overall the state is at high risk for aridity change through 2060. Note that the next riskiest zone for tree cover change dispears as you scroll to the next section.',
             location: {
-                center: [-75.45871, 42.87633],
+                center: [-75.10197, 42.73273],
                 zoom: 6.98,
                 pitch: 45.00,
-                bearing: 0.00,
+                bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -423,6 +428,11 @@ var config = {
             ],
             onChapterExit: [
                 {
+                    layer: 'TCC_Risk2',
+                    opacity: 0,
+                    duration: 5000
+                },
+                {
                     layer: 'aci',
                     opacity: 0,
                     duration: 5000
@@ -430,12 +440,12 @@ var config = {
             ]
         },
         {
-            id: 'landing-2',
+            id: 'overall_utcci-3',
             alignment: 'left',
             hidden: false,
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            title: 'Change is Coming',
+            image: '',
+            description: "Across all metrics, it's clear that climate is changing and it's time to help tree communities adapt to the inevitable change in climate. It's time to conduct more research into plant migration and planning tree corridors for planned and sustained growth to keep our forests and biodiversity thriving.",
             location: {
                 center: [-97.86118, 40.54797],
                 zoom: 3.95,
