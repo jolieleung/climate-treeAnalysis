@@ -116,6 +116,11 @@
             width: 100%;
         }
 
+        .step iframe {
+            width: 100%;
+            height: 600px;
+        }
+
         @media (max-width: 750px) {
             .centered, .lefty, .righty, .fully {
                 width: 90vw;
@@ -225,6 +230,11 @@ config.chapters.forEach((record, idx) => {
         var story = document.createElement('p');
         story.innerHTML = record.description;
         chapter.appendChild(story);
+    }
+    if (record.iframe) {
+        var _frame = document.createElement('iframe');
+        _frame.src = record.iframe;
+        chapter.appendChild(_frame);
     }
 
     container.setAttribute('id', record.id);

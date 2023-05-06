@@ -21,6 +21,7 @@ var config = {
             hidden: false,
             title: 'Urban Tree Cover Change',
             image: '',
+            iframe: '',
             description: 'According to a dataset on urban Forest Threats through 2060 from the U.S. Forest Service, the effect of climate change on urban tree cover in the conterminous United States will be significant. Rising temperatures, changing precipitation patterns, and increased frequency of extreme weather events associated with climate change have resulted in declines in urban tree cover in several regions. These changes have led to increased stress on urban trees, which are facing challenges such as drought, heat stress, and pest infestations.',
             location: {
                 center: [-97.86118, 40.54797],
@@ -56,6 +57,7 @@ var config = {
             hidden: false,
             title: 'Temperature Change Index',
             image: '',
+            iframe: '',
             description: 'We are able to see that temperature is steadier along the coasts, and most of the riskier temperature change index is inland, with the riskiest areas located in the midwest.', 
             location: {
                 center: [-97.86118, 40.54797],
@@ -91,6 +93,7 @@ var config = {
             hidden: false,
             title: 'Plant Hardiness Zones to Measure Temperature',
             image: './images/phz_90-99.gif',
+            iframe: '',
             description: 'Based on the dataset from the U.S. Forest Service, the findings reveal significant changes in plant hardiness zones in the conterminous United States. The data indicates that plant hardiness zones, which provide information on the average annual minimum temperatures for different regions, have shifted northward and upward in elevation over time, reflecting the impact of climate change. Warmer minimum temperatures have resulted in the expansion of plant hardiness zones towards higher latitudes and altitudes, allowing for the potential migration of plant species to new areas. However, the dataset also shows that these changes are not uniform across the country, with variations in the magnitude and direction of the shifts depending on geographic location. These shifts in plant hardiness zones have important implications for plant distribution, ecosystem dynamics, and agriculture, and highlight the need for ongoing monitoring and adaptive management to mitigate the impacts of changing climate on plant communities in the United States.',
             location: {
                 center: [-97.86118, 40.54797],
@@ -126,8 +129,8 @@ var config = {
             hidden: false,
             title: 'Temperature Scatterplot',
             image: '',
-            description: 'Below is a scatterplot comparing the mean Urban Tree Cover Change Index with the Temperature Change Index per state. The dashed line represents the country mean for both metrics. The values closest to 0, marked by a light blue line, represent no change.' + 
-            '<br/><div class="video-container"><iframe src="./plots/tci_scatter.html" frameborder="0" scrolling="no" /></div>',
+            iframe: './plots/tci_scatter.html',
+            description: 'Below is a scatterplot comparing the mean Urban Tree Cover Change Index with the Temperature Change Index per state. The dashed line represents the country mean for both metrics. The values closest to 0, marked by a light blue line, represent no change.<br/>',
             location: {
                 center: [-97.86118, 40.54797],
                 zoom: 3.95,
@@ -162,8 +165,8 @@ var config = {
             hidden: false,
             title: 'Absolute Precipitation Change Index',
             image: '',
-            description: 'We are able to see that throughout the eastern side of the country, there is higher risk for preciptation change. Though this metric does not account for whether the change is an increase or a decrease in precipitation. Below is a scatterplot comparing the mean Urban Tree Cover Change Index with the Absolute Preciptation Change Index per state. The dashed line represents the country mean for both metrics. The values closest to 0, marked by a light blue line, represent no change.' + 
-            '<br/><div class="video-container"><iframe src="./plots/apci_scatter.html" frameborder="0" scrolling="no" /></div>',
+            iframe: './plots/apci_scatter.html',
+            description: 'We are able to see that throughout the eastern side of the country, there is higher risk for preciptation change. Though this metric does not account for whether the change is an increase or a decrease in precipitation. Below is a scatterplot comparing the mean Urban Tree Cover Change Index with the Absolute Preciptation Change Index per state. The dashed line represents the country mean for both metrics. The values closest to 0, marked by a light blue line, represent no change.<br/>',
             location: {
                 center: [-97.86118, 40.54797],
                 zoom: 3.95,
@@ -198,8 +201,8 @@ var config = {
             hidden: false,
             title: 'Aridity Change Index',
             image: '',
-            description: 'We are able to get more clarity in which areas will get less rain with this metric. We see that throughout the eastern side of the country, there is higher risk for aridity change, with the exception of the central eastern coastal states. Below is a scatterplot comparing the mean Urban Tree Cover Change Index with the Arridity Change Index per state. The dashed line represents the country mean for both metrics. The values closest to 0, marked by a light blue line, represent no change.' + 
-            '<br/><div class="video-container"><iframe src="./plots/aci_scatter.html" frameborder="0" scrolling="no" /></div>',
+            iframe: '',
+            description: 'We are able to get more clarity in which areas will get less rain with this metric. We see that throughout the eastern side of the country, there is higher risk for aridity change, with the exception of the central eastern coastal states. Below is a scatterplot comparing the mean Urban Tree Cover Change Index with the Arridity Change Index per state. The dashed line represents the country mean for both metrics. The values closest to 0, marked by a light blue line, represent no change.<br/>',
             location: {
                 center: [-97.86118, 40.54797],
                 zoom: 3.95,
@@ -234,6 +237,7 @@ var config = {
             hidden: false,
             title: 'Urban Tree Cover Change',
             image: '',
+            iframe: '',
             description: 'These three factors, temperature, precipitation, and arridity all have an effect on tree communities and tree cover. When visualizing the urban tree cover indexes, we can see most of the country is at risk for urban tree cover change, though the metric does not specify whether it is an increase or a decrease in tree cover. However, when ecosystems are exposed to drasically different climates, for the species that cannot adapt, the implications are usually that that change is reduction.',
             location: {
                 center: [-97.86118, 40.54797],
@@ -269,6 +273,7 @@ var config = {
             hidden: false,
             title: 'Tree Cover in New York State',
             image: '',
+            iframe: '',
             description: "Let's look at the tree cover in New York state. The lime green represents the most prevalent forest type in New York state, a sugar maple, beech, and yellow birch mix. Note that the riskiest zone for tree cover change, located to the southeast of the state, dispears as you scroll to the next section.",
             location: {
                 center: [-75.10197, 42.73273],
@@ -326,6 +331,7 @@ var config = {
             hidden: false,
             title: 'Temperature Change Index in New York State',
             image: './images/phz_90-99.gif',
+            iframe: '',
             description: 'Now looking at the temperature change index, we can see that overall New York state is at high risk for a change in temperature through 2060. Given global trends and the plant hardiness zone analysis, we can assume that means the temperature is increasing. Note that the next riskiest zone for tree cover change dispears as you scroll to the next section.',
             location: {
                 center: [-75.10197, 42.73273],
@@ -373,6 +379,7 @@ var config = {
             hidden: false,
             title: 'Absolute Preciptation Change Index in New York State',
             image: '',
+            iframe: '',
             description: 'Now looking at the absolute preciptation change index, we can see that the lower part of the state is at high risk for absolute preciptation change through 2060. Note that the next riskiest zone for tree cover change dispears as you scroll to the next section.',
             location: {
                 center: [-75.10197, 42.73273],
@@ -409,6 +416,7 @@ var config = {
             hidden: false,
             title: 'Aridity Change Index in New York State',
             image: '',
+            iframe: '',
             description: 'Now looking at the aridity change index, we can see that overall the state is at high risk for aridity change through 2060. Note that the next riskiest zone for tree cover change dispears as you scroll to the next section.',
             location: {
                 center: [-75.10197, 42.73273],
@@ -445,6 +453,7 @@ var config = {
             hidden: false,
             title: 'Change is Coming',
             image: '',
+            iframe: '',
             description: "Across all metrics, it's clear that climate is changing and it's time to help tree communities adapt to the inevitable change in climate. It's time to conduct more research into plant migration and planning tree corridors for planned and sustained growth to keep our forests and biodiversity thriving.",
             location: {
                 center: [-97.86118, 40.54797],
