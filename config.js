@@ -37,12 +37,12 @@ var config = {
                  {
                      layer: 'state-boundary',
                      opacity: 1,
-                     duration: 5000
+                     duration: 4000
                  },
                  {
                     layer: 'utcci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 }
             ],
             onChapterExit: [
@@ -73,12 +73,12 @@ var config = {
                  {
                      layer: 'state-boundary',
                      opacity: 1,
-                     duration: 5000
+                     duration: 4000
                  },
                  {
                     layer: 'tci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 }
             ],
             onChapterExit: [
@@ -109,12 +109,12 @@ var config = {
                  {
                      layer: 'state-boundary',
                      opacity: 1,
-                     duration: 5000
+                     duration: 4000
                  },
                  {
                     layer: 'tci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 }
             ],
             onChapterExit: [
@@ -145,12 +145,12 @@ var config = {
                  {
                      layer: 'state-boundary',
                      opacity: 1,
-                     duration: 5000
+                     duration: 4000
                  },
                  {
                     layer: 'tci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 }
             ],
             onChapterExit: [
@@ -181,12 +181,12 @@ var config = {
                  {
                      layer: 'state-boundary',
                      opacity: 1,
-                     duration: 5000
+                     duration: 4000
                  },
                  {
                     layer: 'apci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 }
             ],
             onChapterExit: [
@@ -217,12 +217,12 @@ var config = {
                  {
                      layer: 'state-boundary',
                      opacity: 1,
-                     duration: 5000
+                     duration: 4000
                  },
                  {
                     layer: 'aci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 }
             ],
             onChapterExit: [
@@ -253,12 +253,12 @@ var config = {
                  {
                      layer: 'state-boundary',
                      opacity: 1,
-                     duration: 5000
+                     duration: 4000
                  },
                  {
                     layer: 'utcci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 }
             ],
             onChapterExit: [
@@ -295,49 +295,49 @@ var config = {
                 {
                     layer: 'TCC_Risk2',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'TCC_Risk3',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'TCC_Risk4',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'TCC_Risk5',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'county',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
             ],
             onChapterExit: [
             {    
                 layer: 'TCC_Risk2',
                 opacity: 0,
-                duration: 5000
+                duration: 4000
             },
             {
                 layer: 'TCC_Risk3',
                 opacity: 0,
-                duration: 5000
+                duration: 4000
             },
             {
                 layer: 'TCC_Risk4',
                 opacity: 0,
-                duration: 5000
+                duration: 4000
             },
             {
                 layer: 'TCC_Risk5',
                 opacity: 0,
-                duration: 5000
+                duration: 4000
             }
             ]
         },
@@ -368,44 +368,44 @@ var config = {
                 {
                     layer: 'count_Risk2',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'count_Risk3',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'count_Risk4',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'count_Risk5',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'county',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
             ],
             onChapterExit: [
                 {
                     layer: 'count_Risk2',
                     opacity: .3,
-                    duration: 5000
+                    duration: 2000
                 },
                 {
                     layer: 'count_Risk3',
                     opacity: .3,
-                    duration: 5000
+                    duration: 2000
                 },
                 {
                     layer: 'count_Risk4',
                     opacity: .3,
-                    duration: 5000
+                    duration: 2000
                 }
             ]
         },
@@ -436,29 +436,29 @@ var config = {
                 {
                     layer: 'county',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
             ],
             onChapterExit: [
                 {
                     layer: 'count_Risk5',
                     opacity: 0,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'count_Risk2',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'count_Risk3',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'count_Risk4',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 }
             ]
         },
@@ -489,24 +489,24 @@ var config = {
                 {
                     layer: 'tci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'county',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
             ],
             onChapterExit: [
                 {
                     layer: 'count_Risk2',
                     opacity: .3,
-                    duration: 5000
+                    duration: 2000
                 },
                 {
                     layer: 'count_Risk3',
                     opacity: .3,
-                    duration: 5000
+                    duration: 2000
                 }
             ]
         },
@@ -537,29 +537,29 @@ var config = {
                 {
                     layer: 'county',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
             ],
             onChapterExit: [
                 {
                     layer: 'count_Risk4',
                     opacity: 0,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'count_Risk2',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'count_Risk3',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'tci',
                     opacity: 0,
-                    duration: 5000
+                    duration: 4000
                 }
             ]
         },
@@ -584,19 +584,19 @@ var config = {
                 {
                     layer: 'apci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'county',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
             ],
             onChapterExit: [
                 {
                     layer: 'count_Risk2',
                     opacity: .3,
-                    duration: 5000
+                    duration: 2000
                 }
             ]
         },
@@ -621,24 +621,24 @@ var config = {
                 {
                     layer: 'apci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 }
             ],
             onChapterExit: [
                 {
                     layer: 'count_Risk3',
                     opacity: 0,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'count_Risk2',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'apci',
                     opacity: 0,
-                    duration: 5000
+                    duration: 4000
                 }
             ]
         },
@@ -663,19 +663,19 @@ var config = {
                 {
                     layer: 'aci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 }
             ],
             onChapterExit: [
                 // {
                 //     layer: 'TCC_Risk2',
                 //     opacity: 0,
-                //     duration: 5000
+                //     duration: 4000
                 // },
                 // {
                 //     layer: 'aci',
                 //     opacity: 0,
-                //     duration: 5000
+                //     duration: 4000
                 // }
             ]
         },
@@ -700,19 +700,19 @@ var config = {
                 {
                     layer: 'aci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 }
             ],
             onChapterExit: [
                 {
                     layer: 'TCC_Risk2',
                     opacity: 0,
-                    duration: 5000
+                    duration: 4000
                 },
                 {
                     layer: 'aci',
                     opacity: 0,
-                    duration: 5000
+                    duration: 4000
                 }
             ]
         },
@@ -737,14 +737,14 @@ var config = {
                 {
                     layer: 'utcci',
                     opacity: 1,
-                    duration: 5000
+                    duration: 4000
                 }
             ],
             onChapterExit: [
                 {
                     layer: 'utcci',
                     opacity: 0,
-                    duration: 5000
+                    duration: 4000
                 }
             ]
         },
