@@ -13,7 +13,8 @@ var config = {
     title: "Climate Change's Effect on Tree Communities",
     subtitle: 'An analysis on tree threats on the conterminous United States',
     byline: 'Jolie Leung',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'Jolie Leung, <a href="https://github.com/jolieleung/climate-treeAnalysis/tree/site" target="_blank">Github Repository</a> <br> MS Data Analystics & Visualization | Pratt Institute School of Information<br> May',
+    // Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.
     chapters: [
         {
             id: 'overall-utcci-1', //ids need to be unique for each chapter
@@ -271,7 +272,7 @@ var config = {
             id: 'nys_treecover_species',
             alignment: 'right',
             hidden: false,
-            title: 'Tree Cover in New York State',
+            title: 'Tree Cover in New York State by Species',
             image: '',
             iframe: '',
             description: "Let's look at the tree cover in New York state by species. The lime green represents the most prevalent forest type in New York state, a sugar maple, beech, and yellow birch mix.",
@@ -342,15 +343,15 @@ var config = {
         },
         {
             id: 'nys_treecover_count-1',
-            alignment: 'right',
+            alignment: 'centered',
             hidden: false,
-            title: 'Tree Cover in New York State',
+            title: 'Live Tree Count (by Acre) in New York State',
             image: './plots/NYS_Risk5_TPAdist.png',
             iframe: '',
-            description: "Let's look at the tree cover in New York state by number of live trees per acre. The darker the green, the more trees per acre. Note that the riskiest zone for tree cover change, located to the southeast of the state, dispears as you scroll to the next section.",
+            description: "Let's look at the tree cover in New York state by number of live trees per acre. The darker the green, the more trees per acre.",
             location: {
-                center: [-75.10197, 42.73273],
-                zoom: 6.98,
+                center: [-74.19956, 43.40139],
+                zoom: 6.52,
                 pitch: 45.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -412,13 +413,13 @@ var config = {
             id: 'nys_treecover_count-2',
             alignment: 'right',
             hidden: false,
-            title: 'Tree Cover in New York State',
+            title: 'Risk Level 5 (Highest) | Live Tree Count (by Acre) in New York State',
             image: './images/count_risk5.png',
             iframe: '',
             description: "Note that the riskiest zone for tree cover change, located to the southeast of the state, dispears as you scroll to the next section.",
             location: {
-                center: [-75.10197, 42.73273],
-                zoom: 6.98,
+                center: [-74.19956, 43.40139],
+                zoom: 6.52,
                 pitch: 45.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -463,15 +464,15 @@ var config = {
         },
         {
             id: 'nys_tci-1',
-            alignment: 'right',
+            alignment: 'centered',
             hidden: false,
             title: 'Temperature Change Index in New York State',
             image: './plots/NYS_Risk4_TPAdist.png',
             iframe: '',
-            description: 'Now looking at the temperature change index, we can see that overall New York state is at high risk for a change in temperature through 2060. Given global trends and the plant hardiness zone analysis, we can assume that means the temperature is increasing. Note that the next riskiest zone for tree cover change dispears as you scroll to the next section.',
+            description: 'Now looking at the temperature change index, we can see that overall New York state is at high risk for a change in temperature through 2060. Given global trends and the plant hardiness zone analysis, we can assume that means the temperature is increasing.',
             location: {
-                center: [-75.10197, 42.73273],
-                zoom: 6.98,
+                center: [-74.19956, 43.40139],
+                zoom: 6.52,
                 pitch: 45.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -513,13 +514,13 @@ var config = {
             id: 'nys_tci-2',
             alignment: 'right',
             hidden: false,
-            title: 'Temperature Change Index in New York State',
+            title: 'Risk Level 4 | Temperature Change Index in New York State',
             image: './images/count_risk4.png',
             iframe: '',
             description: 'Note that the next riskiest zone for tree cover change dispears as you scroll to the next section.',
             location: {
-                center: [-75.10197, 42.73273],
-                zoom: 6.98,
+                center: [-74.19956, 43.40139],
+                zoom: 6.52,
                 pitch: 45.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -564,15 +565,15 @@ var config = {
         },
         {
             id: 'nys_apci-1',
-            alignment: 'right',
+            alignment: 'centered',
             hidden: false,
             title: 'Absolute Preciptation Change Index in New York State',
             image: './plots/NYS_Risk3_TPAdist.png',
             iframe: '',
             description: 'Now looking at the absolute preciptation change index, we can see that the lower part of the state is at high risk for absolute preciptation change through 2060.',
             location: {
-                center: [-75.10197, 42.73273],
-                zoom: 6.98,
+                center: [-74.19956, 43.40139],
+                zoom: 6.52,
                 pitch: 45.00,
                 bearing: 0.00
             },
@@ -603,13 +604,13 @@ var config = {
             id: 'nys_apci-2',
             alignment: 'right',
             hidden: false,
-            title: 'Absolute Preciptation Change Index in New York State',
+            title: 'Risk Level 3 | Absolute Preciptation Change Index in New York State',
             image: './images/count_risk3.png',
             iframe: '',
-            description: 'Now looking at the absolute preciptation change index, we can see that the lower part of the state is at high risk for absolute preciptation change through 2060. Note that the next riskiest zone for tree cover change dispears as you scroll to the next section.',
+            description: 'Note that the next riskiest zone for tree cover change dispears as you scroll to the next section.',
             location: {
-                center: [-75.10197, 42.73273],
-                zoom: 6.98,
+                center: [-74.19956, 43.40139],
+                zoom: 6.52,
                 pitch: 45.00,
                 bearing: 0.00
             },
@@ -643,15 +644,15 @@ var config = {
         },
         {
             id: 'nys_aci-1',
-            alignment: 'right',
+            alignment: 'centered',
             hidden: false,
             title: 'Aridity Change Index in New York State',
             image: './plots/NYS_Risk2_TPAdist.png',
             iframe: '',
             description: 'Now looking at the aridity change index, we can see that overall the state is at high risk for aridity change through 2060.',
             location: {
-                center: [-75.10197, 42.73273],
-                zoom: 6.98,
+                center: [-74.19956, 43.40139],
+                zoom: 6.52,
                 pitch: 45.00,
                 bearing: 0.00
             },
@@ -682,13 +683,13 @@ var config = {
             id: 'nys_aci-2',
             alignment: 'right',
             hidden: false,
-            title: 'Aridity Change Index in New York State',
+            title: 'Risk Level 2 (Lowest) | Aridity Change Index in New York State',
             image: './images/count_risk2.png',
             iframe: '',
             description: 'Note that the next riskiest zone for tree cover change dispears as you scroll to the next section.',
             location: {
-                center: [-75.10197, 42.73273],
-                zoom: 6.98,
+                center: [-74.19956, 43.40139],
+                zoom: 6.52,
                 pitch: 45.00,
                 bearing: 0.00
             },
@@ -720,13 +721,13 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Change is Coming',
-            image: '',
+            image: './images/count_total.png',
             iframe: '',
             description: "Across all metrics, it's clear that climate is changing and it's time to help tree communities adapt to the inevitable change in climate. It's time to conduct more research into plant migration and planning tree corridors for planned and sustained growth to keep our forests and biodiversity thriving.",
             location: {
                 center: [-97.86118, 40.54797],
-                zoom: 3.95,
-                pitch: 54,
+                zoom: 3.75,
+                pitch: 35,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
