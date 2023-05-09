@@ -13,7 +13,7 @@ var config = {
     title: "Climate Change's Effect on Tree Communities",
     subtitle: 'An analysis on tree threats on the conterminous United States',
     byline: 'Jolie Leung',
-    footer: 'Jolie Leung, <a href="https://github.com/jolieleung/climate-treeAnalysis/tree/site" target="_blank">Github Repository</a> <br> MS Data Analystics & Visualization | Pratt Institute School of Information<br> May',
+    footer: 'Jolie Leung, <a href="https://github.com/jolieleung/climate-treeAnalysis/tree/site" target="_blank">Github Repository</a> <br> MS Data Analystics & Visualization | Pratt Institute School of Information<br> May 2023',
     // Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.
     chapters: [
         {
