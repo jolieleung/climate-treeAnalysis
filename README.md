@@ -46,5 +46,8 @@ Here is a link to the <a href="https://docs.google.com/spreadsheets/d/1-U8MYWjdZ
 Conclusions are highlighted in the final website. Across all metrics, it's clear that climate is changing and it's time to help tree communities adapt to the inevitable change in climate. It's time to conduct more research into plant migration and planning tree corridors for planned and sustained growth to keep our forests and biodiversity thriving.
 
 ## Additional Sources
+BioScience, Volume 55, Issue 9, September 2005, Pages 749–759, https://doi.org/10.1641/0006-3568(2005)055[0749:FRTGPM]2.0.CO;2
+
 Charles D. Canham, Lora Murphy, Rachel Riemann, Richard McCullough, Elizabeth Burrill. Local differentiation in tree growth responses to climate. Ecosphere, 2018 DOI: 10.1002/ecs2.2368
 
+“Greenhouse Gas Equivalencies Calculator.” EPA, www.epa.gov/energy/greenhouse-gas-equivalencies-calculator#results. Accessed 5 May 2023.
