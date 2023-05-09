@@ -30,14 +30,14 @@ Import data into ArcGIS. Clip to New York State (NYS) in order to render data
 <ul><li>EDA on several attributes (count, species, height) - summary statistics, zonal statistics, tabulate area</li>
 <li>Clip live tree counts in each risk zone in NYS</li>
 <li>Export as GeoTIFF (troubleshoot compression and background mask issues) and reprocess in QGIS</li>
-<li>Symbolize live counts by quartile breaks to emphasize density of tree cover and export final GeoTIFF to be compatible with Mapbox</li>
+<li>Symbolize live counts by quartile breaks to emphasize density of tree cover and export final GeoTIFF to be compatible with Mapbox</li></ul>
   
 3. Create supplementary interactive Plotly graphs based on EDA in Jupyter Notebook
   
 4. Format and hook up data to the Mapbox GL JS Storytelling template
 <ul><li>Formulate narrative</li>
 <li>Develop layering and animation sequence</li>
-<li>Set camera positions, styling, and formatting in javascript</li>
+<li>Set camera positions, styling, and formatting in javascript</li></ul>
 
 ## EDA
 Here is a link to the <a href="https://docs.google.com/spreadsheets/d/1-U8MYWjdZTW1YlAPH0wXrIeaHMdnrVUXoG2aaaqCkWk/edit?usp=sharing" target="_blank"> 50% Progress Presentation </a> to highlight some exploratory data analysis.
