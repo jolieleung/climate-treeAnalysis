@@ -18,25 +18,36 @@ Riley, Karin L.; Grenfell, Isaac C.; Finney, Mark A.; Shaw, John D. 2021. TreeMa
 
 
 ## Process & Methods
-1. Processing Tabular Data: Conterminous United States urban forest threats to 2060 (USDA Department of Agriculture/USDA Forest Service)
-  - Reformat FIPS codes to join with county shapefile
-  - Visualize each index (already normalized) by standard deviation
+1. Tabular Data: Conterminous United States urban forest threats to 2060 (USDA Department of Agriculture/USDA Forest Service)
+<ul><li>Exploratory data analysis in Python</li>
+<li>Reformat FIPS codes to join with county shapefile</li>
+<li>Use ArcGIS to visualize each index (already normalized) by standard deviation</li>
+<li>Import data into Mapbox Studio and manually recreate breaks for the choropleth map created in ArcGIS</li>
+<li>Select colors for more intuitive color associations for each metric</li></ul>
 
-2. Proess Raster Data: TreeMap 2016: A tree-level model of the forests of the conterminous United States circa 2016 (USDA Department of Agriculture/USDA Forest Service)
-  - Clip to New York State in order to render data
-  - EDA on several attributes (count, species, height) - summary statistics, zonal statistics, tabulate area
-  - Export as GeoTIFF* (compression and background mask issues)
-  - Iterations on styling and compression settings in QGIS and export again as GeoTIFF
-
-3. Create supplementary interactive Plotly graphs
-
+2. Raster Data: TreeMap 2016: A tree-level model of the forests of the conterminous United States circa 2016 (USDA Department of Agriculture/USDA Forest Service)
+Import data into ArcGIS. Clip to New York State (NYS) in order to render data
+<ul><li>EDA on several attributes (count, species, height) - summary statistics, zonal statistics, tabulate area</li>
+<li>Clip live tree counts in each risk zone in NYS</li>
+<li>Export as GeoTIFF (troubleshoot compression and background mask issues) and reprocess in QGIS</li>
+<li>Symbolize live counts by quartile breaks to emphasize density of tree cover and export final GeoTIFF to be compatible with Mapbox</li></ul>
+  
+3. Create supplementary interactive Plotly graphs based on EDA in Jupyter Notebook
+  
 4. Format and hook up data to the Mapbox GL JS Storytelling template
-  - Develop layering and animation sequence
-  - Set camera positions, styling, and formating
-  - Formulate narrative
+<ul><li>Formulate narrative</li>
+<li>Develop layering and animation sequence</li>
+<li>Set camera positions, styling, and formatting in javascript</li></ul>
 
 ## EDA
 Here is a link to the <a href="https://docs.google.com/spreadsheets/d/1-U8MYWjdZTW1YlAPH0wXrIeaHMdnrVUXoG2aaaqCkWk/edit?usp=sharing" target="_blank"> 50% Progress Presentation </a> to highlight some exploratory data analysis.
 
 ## Conclusions
 Conclusions are highlighted in the final website. Across all metrics, it's clear that climate is changing and it's time to help tree communities adapt to the inevitable change in climate. It's time to conduct more research into plant migration and planning tree corridors for planned and sustained growth to keep our forests and biodiversity thriving.
+
+## Additional Sources
+BioScience, Volume 55, Issue 9, September 2005, Pages 749–759, https://doi.org/10.1641/0006-3568(2005)055[0749:FRTGPM]2.0.CO;2
+
+Charles D. Canham, Lora Murphy, Rachel Riemann, Richard McCullough, Elizabeth Burrill. Local differentiation in tree growth responses to climate. Ecosphere, 2018 DOI: 10.1002/ecs2.2368
+
+“Greenhouse Gas Equivalencies Calculator.” EPA, www.epa.gov/energy/greenhouse-gas-equivalencies-calculator#results. Accessed 5 May 2023.
